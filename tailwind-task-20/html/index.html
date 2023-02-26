@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- class="overflow-x-hidden" -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="details" content="Portfolio">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/dist/output.css">
+    <title>html-css-Tailwind</title>
+</head>
+
+<body>
+    <header>
+        <div class="overflow-hidden flex items-center justify-between px-12 h-12 bg-teal-500 p-3 text-lg">
+            <a class=" h-12 mt-6 peer relative hover:bg-white">Home</a>
+            <div class="z-10 absolute hover:flex hidden peer-hover:flex flex-col mt-20">
+                <a class=" bg-red-200 hover:bg-red-700  text-black" href="#slider">Slider show</a>
+                <a class="bg-red-200 hover:bg-red-700 text-black" href="#light">Light Box</a>
+            </div>
+
+            <a class="hover:bg-white" href="#Portfolio">Portfolio</a>
+            <a class="hover:bg-white" href="#service">Service</a>
+            <a class="hover:bg-white" href="#contact">Contact us</a>
+            <a class="hover:bg-white" href="#review">Review</a>
+            <a class="hover:bg-white" href="#team">Team members</a>
+            <a class="hover:bg-white" href="#blog1">Blog Post</a>
+            <!-- <a href="#faq2">FAQs</a> -->
+        </div>
+    </header>
+
+    <section class="abc">
+        <div class="flex flex-row text-center max-md:flex-col max-md:justify-center">
+            <div class="bg-emerald-400  border w-full ml-1">
+                <h1 class="text-5xl">Povilas Korop</h1>
+                <img class="rounded-2xl mt-3 h-72 w-72 mx-auto" src="/img/first.jpeg" alt="Povilas">
+                <p class="mx-2"><b>My story</b><br>I've been creating PHP web-projects since 2001, last 5 years - with
+                    Laravel
+                    framework. Grew my freelance consultancy into a small team we call Laravel Daily.<br>Lately
+                    became
+                    more obsessed with customer success and business part of web, so practicing project management
+                    and
+                    entrepreneurship. Released our own product called QuickAdminPanel - code generator for the same
+                    Laravel framework.</p>
+
+
+            </div>
+
+            <div class="bg-emerald-400 border mx-2 w-full">
+                <h1 class="text-5xl">Bill Gates</h1>
+                <img class="rounded-2xl mt-3 h-72 w-72 mx-auto" src="/img/second.jpg" alt="American business magnate">
+                <p class="mx-2"><b>Windows</b><br>Microsoft and Gates launched their first retail version of Microsoft
+                    Windows on
+                    November 20, 1985, in an attempt to fend off competition from Apple's Macintosh GUI, which had
+                    captivated consumers with its simplicity and ease of use.[69] In August of the following year,
+                    the
+                    company struck a deal with IBM to develop a separate operating system called OS/2. <br>Although
+                    the
+                    two companies successfully developed the first version of the new system, the partnership
+                    deteriorated due to mounting creative differences.[70] The operating system grew out of DOS in
+                    an
+                    organic fashion over a decade until Windows 95, which hid the DOS prompt by default. <br>Windows
+                    XP,
+                    released one year after Gates stepped down as Microsoft CEO, was the first to not be based on
+                    DOS.[71] Windows 8.1 was the last version of the OS released before Gates left the chair of the
+                    firm
+                    to John W. Thompson on February 5, 2014.</p>
+            </div>
+
+            <div class="bg-emerald-400 border w-full mr-1">
+                <h1 class="text-5xl">HTML_CSS_JS</h1>
+                <img class="rounded-2xl mt-3 h-72 w-72 mx-auto" src="/img/third.png" alt="Description">
+                <p class="mx-2"><b>Description</b><br>This introductory course to HTML ,CSS and JavaScript is vital for
+                    anyone
+                    who
+                    wants to become a web developer..<br>These three technologies are skills every web developer
+                    must
+                    learn and have.<br>HTML : Used to create content<br>CSS: Used to present the
+                    content<br>JavaScript :
+                    Used to create interaction<br>They are the building blocks of all websites and web based
+                    projects.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-cyan-400 text-center mt-2 " id="Portfolio">
+        <h1 class="text-center text-5xl">Portfolio</h1>
+        <div class="flex flex-row max-md:flex-col max-md:justify-center">
+            <div class="w-full  border">
+                <a class="bg-amber-200" href="https://www.w3schools.com/html/"><img class="mx-auto h-72 p-5"
+                        src="/img/html.jpg" alt="about html">Hypertext Markup
+                    Language
+                </a>
+            </div>
+            <div class=" w-full  border">
+                <a class="bg-amber-200" href="https://www.w3schools.com/css/"><img class="mx-auto h-72 p-5"
+                        src="/img/css.jpg" alt="about css"> Cascading Style Sheets
+                </a>
+            </div>
+            <div class="w-full  border">
+                <a class="bg-amber-200" href="https://www.w3schools.com/js/"><img class="mx-auto h-72 p-5"
+                        src="/img/javascript.png" alt="about javascript">Javascript</a>
+            </div>
+
+            <div class="w-full  border">
+                <a class="bg-amber-200" href="https://www.w3schools.com/python/default.asp"><img
+                        class="mx-auto h-72 p-5" src="/img/python.png" alt="about python">Python</a>
+            </div>
+            <div class="w-full  border">
+                <a class="bg-amber-200" href="https://www.w3schools.com/sql/default.asp"><img class="mx-auto h-72 p-5"
+                        src="/img/sql.jpg" alt="about sql">Structured
+                    Query Language
+                </a>
+            </div>
+            <div class="w-full  border">
+                <a class="bg-amber-200" href="https://www.w3schools.com/java/default.asp"><img class="mx-auto h-72 p-5"
+                        src="/img/Java.png" alt="about java">Java</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center px-2 mt-7 bg-violet-400 " id="service">
+        <p class="text-5xl">service</p>
+        <div class="flex flex-row mt-2 max-md:flex-col max-md:justify-center">
+            <div class="w-full mx-2 h-80">
+                <a href="https://en.wikipedia.org/wiki/Computer_science">
+                    <img class="w-full rounded-2xl h-72 mx-auto max-md:w-3/6" src="/img/ce.jpg"
+                        alt="about computer engineering">
+                </a>
+                <!-- <button class="more1">read more</button> -->
+                <h4 class="hover:bg-blue-500"> Computer science</h4>
+                <!-- <div class="mod">
+                    <button id="Btn">Open Modal</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Welcome to Computer Science..</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="w-full mx-2 h-80">
+                <a href="https://en.wikipedia.org/wiki/Machine_learning">
+                    <img class="w-full rounded-2xl h-72 mx-auto max-md:w-3/6" src="/img/ml.jpg"
+                        alt="about machine learning">
+                </a>
+                <!-- <button class="more1">read more</button> -->
+                <h4 class="hover:bg-blue-500">Machine Learning</h4>
+                <!-- <div class="mod">
+                    <button id="Btn">Open Modal</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Welcome to Machine Learning..</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="w-full mx-2 h-80">
+                <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">
+                    <img class="w-full rounded-2xl h-72 mx-auto max-md:w-3/6" src="/img/ai.jpg"
+                        alt="about artificial intelligence">
+                </a>
+                <!-- <button class="more1">read more</button> -->
+                <h4 class="hover:bg-blue-500">Artificial Intelligence</h4>
+                <!-- <div class="mod">
+                    <button id="Btn">Open Modal</button>
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>Welcome to Artificial Intelligence..</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+    </section>
+
+    <section class="text-center mt-3 " id="team">
+        <p class="text-5xl">Team members</p>
+        <div class="flex flex-row max-md:flex-col max-md:justify-center">
+            <!-- <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'r1')">review1</button>
+                <button class="tablinks" onclick="openCity(event, 'r2')">review2</button>
+                <button class="tablinks" onclick="openCity(event, 'r3')">review3</button>
+            </div> -->
+            <div id="r1" class="w-full p-3 mx-9">
+                <img class="rounded-2xl w-full h-[30rem] rad max-md:w-3/6 max-md:h-3/6 max-md:mx-auto"
+                    src="/img/review.png" alt="image">
+                <h4 class="text-1xl hover:bg-green-400">Chief executive officer</h4>
+            </div>
+            <div id="r2" class="w-full p-3 mx-9">
+                <img class="rounded-2xl w-full h-[30rem] rad max-md:w-3/6 max-md:h-3/6 max-md:mx-auto"
+                    src="/img/review2.png" alt="image">
+                <h4 class="text-1xl hover:bg-green-400">Projrct Manager</h4>
+            </div>
+            <div id="r3" class="w-full p-3 mx-9">
+                <img class="rounded-2xl w-full h-[30rem] rad max-md:w-3/6 max-md:h-3/6 max-md:mx-auto"
+                    src="/img/review3.png" alt="image">
+                <h4 class="text-1xl hover:bg-green-400">Human resources executive</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-fuchsia-400 " id="blog1">
+        <p class="text-5xl text-center max-md:justify-center">Blog Post</p>
+
+        <div class="flex flex-row pt-20 max-md:flex-col">
+            <div class="w-full h-72 mx-auto ">
+                <a href="portfolio.html"><img
+                        class="w-full p-2 animate-bounce h-full rounded-2xl max-md:w-3/6  max-md:mx-auto max-md:rounded-full max-md:animate-none"
+                        src="/img/msd.jpg" alt="about msdhoni"></a>
+            </div>
+            <div class="w-full h-72 mx-auto ">
+                <a href="portfolio.html"><img
+                        class="w-full p-2 animate-bounce h-full rounded-2xl max-md:w-3/6  max-md:mx-auto max-md:rounded-full max-md:animate-none"
+                        src="/img/st.jpg" alt="about Sachin Tendulkar"></a>
+            </div>
+            <div class="w-full h-72 mx-auto ">
+                <a href="portfolio.html"><img
+                        class="w-full p-2 animate-bounce h-full rounded-2xl max-md:w-3/6  max-md:mx-auto max-md:rounded-full max-md:animate-none"
+                        src="/img/kp.jpg" alt="about Kapil Dev"></a>
+            </div>
+            <div class="w-full h-72 mx-auto ">
+                <a href="portfolio.html"><img
+                        class="w-full p-2 animate-bounce h-full rounded-2xl max-md:w-3/6  max-md:mx-auto max-md:rounded-full max-md:animate-none"
+                        src="/img/blog1.png" alt="about Kapil Dev"></a>
+            </div>
+            <div class="w-full h-72 mx-auto ">
+                <a href="portfolio.html"><img
+                        class="w-full p-2 animate-bounce h-full rounded-2xl max-md:w-3/6  max-md:mx-auto max-md:rounded-full max-md:animate-none"
+                        src="/img/blog2.png" alt="about Kapil Dev"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-2 bg-cyan-500 text-center " id="review">
+        <h5 class="text-5xl ">Reviews</h5>
+        <div class="flex flex-row max-md:flex-col max-md:justify-center">
+            <div
+                class="w-full border border-stone-900 bg-amber-200 m-5 p-3 rounded-2xl  max-md:w-3/6 max-md:h-3/6 max-md:mx-auto">
+                <img class="animate-pulse rounded-full h-56 w-56 mx-auto" src="/img/review4.png" alt="image">
+                <h4 class="font-bold">Person 1</h4>
+                <p>For larger businesses, particularly publicly traded companies, the chief executive officer, or CEO,
+                    is the highest-level person, while small businesses are typically founded and run by their owners.
+                </p>
+            </div>
+
+            <div
+                class="w-full border border-stone-900 bg-amber-200 m-5 p-3 rounded-2xl  max-md:w-3/6 max-md:h-3/6 max-md:mx-auto">
+                <img class="animate-pulse rounded-full h-56 w-56 mx-auto" src="/img/review5.png" alt="image">
+                <h4 class="font-bold">Person 2</h4>
+                <p>The chief technology officer (CTO) is the individual within an organization who oversees the current
+                    technology and creates relevant policy. A CTO should have the business knowledge necessary to align
+                    technology-related decisions with the organization's goals.</p>
+            </div>
+
+            <div
+                class="w-full border border-stone-900 bg-amber-200 m-5 p-3 rounded-2xl  max-md:w-3/6 max-md:h-3/6 max-md:mx-auto">
+                <img class="animate-pulse rounded-full h-56 w-56 mx-auto" src="/img/review6.png" alt="image">
+                <h4 class="font-bold">Person 3</h4>
+                <p>Product managers usually have a degree in technical fields such as engineering and computer sciences,
+                    an MBA and a complementary certification within product management. One can also target a product
+                    management job through non-tech areas by networking within the firms seeking their expertise.</p>
+            </div>
+
+            <div
+                class="w-full border border-stone-900 bg-amber-200 m-5 p-3 rounded-2xl  max-md:w-3/6 max-md:h-3/6 max-md:mx-auto">
+                <img class="animate-pulse rounded-full h-56 w-56 mx-auto" src="/img/review7.png" alt="image">
+                <h4 class="font-bold">Person 3</h4>
+                <p>Most human resources project managers have an associate or bachelor's degree in human resources,
+                    business management, or a related field. Other qualifications include excellent communication and
+                    organizational skills and knowing how to establish and manage a project's budget.</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="mt-2 bg-emerald-200 justify-center" id="contact">
+        <p class="text-5xl text-center">Contact us</p>
+        <form>
+            <div class=" py-2  max-md:mx-auto ">
+                <div class="w-full text-center justify-center flex py-2 max-md:flex-col max-md:w-full">
+                    <label class="float-left w-32 bg-stone-400 hover:bg-slate-400 max-md:text-center" for="fname">Full
+                        Name</label>
+                    <input class=" hover:bg-indigo-400 w-3/6 max-md:w-full max-md:mx-auto" type="text" id="fname"
+                        name="firstname" placeholder="Your name..">
+                </div>
+                <div class="w-full text-center justify-center flex py-2 max-md:flex-col max-md:w-full">
+                    <label class="float-left w-32 bg-stone-400 hover:bg-slate-400  max-md:text-center"
+                        for="lname">Email</label>
+                    <input class=" hover:bg-indigo-400 w-3/6 max-md:w-full max-md:mx-auto" type="text" id="lname"
+                        name="lastname" placeholder="Your email id here..">
+                </div>
+                <div class="w-full text-center justify-center flex py-2 max-md:flex-col max-md:w-full">
+                    <label class="float-left w-32 bg-stone-400 hover:bg-slate-400  max-md:text-center"
+                        for="lname">Mobile No.</label>
+                    <input class=" hover:bg-indigo-400 w-3/6 max-md:w-full max-md:mx-auto" type="number" id="lname"
+                        name="lastname" placeholder="Your mobile number here..">
+                </div>
+                <div class="w-full text-center justify-center flex py-2 max-md:flex-col max-md:w-full">
+                    <label class="float-left w-32 bg-stone-400 hover:bg-slate-400 max-md:text-center"
+                        for="about">About</label>
+                    <input class=" hover:bg-indigo-400 w-3/6 max-md:w-full max-md:mx-auto" type="text" id="about"
+                        name="queryabout" placeholder="Write about your query..">
+                </div>
+                <div class="bg-gray-400 my-2 w-28 py-2 text-center mx-auto rounded-full hover:bg-orange-500">
+                    <input class="items-center" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section class="my-2 text-center overflow-x-hidden" id="slider">
+        <p class="text-5xl">Slider Show</p>
+        <div class="flex animate-waving-hand relative w-max h-96 overflow-hidden">
+            <div class="w-screen"><img class="h-96 w-full" src="/img/sl1.webp" alt="slide1"></div>
+            <div class=" w-screen"><img class="h-96 w-full" src="/img/sl2.png" alt="slide2"></div>
+            <div class=" w-screen"><img class="h-96 w-full" src="/img/sl3.jpg" alt="slide3"></div>
+            <div class=" w-screen"><img class="h-96 w-full" src="/img/sl4.jpg" alt="slide4"></div>
+            <div class=" w-screen"><img class="h-96 w-full" src="/img/sl5.jpg" alt="slide5"></div>
+        </div>
+    </section>
+
+    <section class="my-2 bg-fuchsia-600 " id="light">
+        <p class="text-5xl text-center max-md:justify-center">Light Box</p>
+        <div class="flex flex-row py-2 max-md:flex-col  ">
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black focus:w-s focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2 focus:w-full focus:h-auto" src="/img/box1.jpg" alt="slide1">
+            </a>
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black  focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2 focus:w-full focus:h-auto" src="/img/box2.jpg"
+                    alt="slide2"></a>
+
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black  focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2 focus:w-full focus:h-auto" src="/img/box3.webp"
+                    alt="slide3"></a>
+
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black  focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2 focus:w-full focus:h-auto" src="/img/box4.jpg"
+                    alt="slide4"></a>
+
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black  focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2 focus:w-full focus:h-auto" src="/img/box5.jpg"
+                    alt="slide5"></a>
+
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black  focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2 focus:w-full focus:h-auto" src="/img/box6.jpg"
+                    alt="slide5"></a>
+
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black  focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2 focus:w-full focus:h-auto" src="/img/box7.jpg"
+                    alt="slide5"></a>
+
+            <a href="javascript:(0)"
+                class="w-full focus:absolute focus:h-full focus:w-full focus:flex focus:justify-center focus:align-middle focus:bg-black  focus:z-10 "><img
+                    class="w-full h-full rounded-3xl p-2" src="/img/box8.jpg" alt="slide5"></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="m-1">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14688.550125840617!2d72.522448!3d23.018721949999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d196e417db%3A0x60131a3741787591!2sJodhpur%20Village%2C%20Ahmedabad%2C%20Gujarat%20380015!5e0!3m2!1sen!2sin!4v1676014933275!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="w-full h-40"></iframe>
+        </div>
+    </section>
+    <footer class="animate-pulse text-center bg-rose-500">
+        <p class="text-3xl">HTML---CSS---JAVASCRIPT</p>
+        <div class="flex flex-row justify-center max-md:flex-col">
+            <a class="mx-4" href="#home#">Github</a>
+            <a class="mx-4" href="#news">Facebook</a>
+            <a class="mx-4" href="#contact">Linkedin</a>
+            <a class="mx-4" href="#aboutl">Instagram</a>
+        </div>
+        <B>@copyright</B>
+    </footer>
+</body>
+
+</html>
+<!-- npx tailwindcss -i ./css/index.css -o ./dist/output.css --watch -->
