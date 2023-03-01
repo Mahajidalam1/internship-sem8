@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="details" content="Portfolio">
+    <!-- <link rel="stylesheet" href="/css/index.css"> -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css.map">   
+    <title>html-css</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-primary"></nav>
+    <header id="header1">
+        <nav class="nvb">
+            <div class="navbar" id="nvb1">
+                <div id="menu" class="dropdown1">
+                    <button class="drop" onclick="home()">
+                        Home
+                    </button>
+                    <div class="content" id="content1">
+                        <a href="#slider">Slider show</a>
+                        <a href="#light">Light Box</a>
+                    </div>
+                </div>
+
+                <a href="#abc6">Portfolio</a>
+                <a href="#service">Service</a>
+                <a href="#abc5">Contact us</a>
+                <a href="#review">Review</a>
+                <a href="#map2">About</a>
+                <a href="#blog1">Blog Post</a>
+                <a href="#faq2">FAQs</a>
+
+                <a href="javascript:void(0);" class="icon" onclick="menu()">
+                    <i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 id="abc4">News template</h1>
+        <section class="abc">
+            <div class="abc1">
+                <div class="ab">
+                    <h1>Povilas Korop</h1>
+                    <img src="/img/first.jpeg" alt="Povilas">
+                    <p><b>My story</b><br>I've been creating PHP web-projects since 2001, last 5 years - with Laravel
+                        framework. Grew my freelance consultancy into a small team we call Laravel Daily.<br>Lately
+                        became
+                        more obsessed with customer success and business part of web, so practicing project management
+                        and
+                        entrepreneurship. Released our own product called QuickAdminPanel - code generator for the same
+                        Laravel framework.</p>
+
+
+                </div>
+
+
+                <div class="ab">
+                    <h1>Bill Gates</h1>
+                    <img src="/img/second.jpg" alt="American business magnate">
+                    <p><b>Windows</b><br>Microsoft and Gates launched their first retail version of Microsoft Windows on
+                        November 20, 1985, in an attempt to fend off competition from Apple's Macintosh GUI, which had
+                        captivated consumers with its simplicity and ease of use.[69] In August of the following year,
+                        the
+                        company struck a deal with IBM to develop a separate operating system called OS/2. <br>Although
+                        the
+                        two companies successfully developed the first version of the new system, the partnership
+                        deteriorated due to mounting creative differences.[70] The operating system grew out of DOS in
+                        an
+                        organic fashion over a decade until Windows 95, which hid the DOS prompt by default. <br>Windows
+                        XP,
+                        released one year after Gates stepped down as Microsoft CEO, was the first to not be based on
+                        DOS.[71] Windows 8.1 was the last version of the OS released before Gates left the chair of the
+                        firm
+                        to John W. Thompson on February 5, 2014.</p>
+                </div>
+
+                <div class="ab">
+                    <h1>HTML_CSS_JS</h1>
+                    <img src="/img/third.png" alt="Description">
+                    <p><b>Description</b><br>This introductory course to HTML ,CSS and JavaScript is vital for anyone
+                        who
+                        wants to become a web developer..<br>These three technologies are skills every web developer
+                        must
+                        learn and have.<br>HTML : Used to create content<br>CSS: Used to present the
+                        content<br>JavaScript :
+                        Used to create interaction<br>They are the building blocks of all websites and web based
+                        projects.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="abc6">Portfolio
+            <!-- <div class="abc7">
+                <div>
+                    <a href="https://www.w3schools.com/html/"><img src="/img/html.jpg" alt="about html">Hypertext Markup
+                        Language
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.w3schools.com/css/"><img src="/img/css.jpg" alt="about css"> Cascading Style Sheets
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.w3schools.com/js/"><img src="/img/javascript.png"
+                            alt="about javascript">Javascript</a>
+                </div>
+            </div><br>
+            <div class="abc8">
+                <div>
+                    <a href="https://www.w3schools.com/python/default.asp"><img src="/img/python.png"
+                            alt="about python">Python</a>
+                </div>
+                <div>
+                    <a href="https://www.w3schools.com/sql/default.asp"><img src="/img/sql.jpg" alt="about sql">Structured
+                        Query Language
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.w3schools.com/java/default.asp"><img src="/img/Java.png" alt="about java">Java</a>
+                </div>
+            </div> -->
+            <div id="port">
+                <img src=''>
+            </div>
+
+        </section>
+
+        <section id="service">
+            <p>service</p>
+            <div class="service1">
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Computer_science">
+                        <img src="/img/ce.jpg" alt="about computer engineering">
+                    </a>
+                    <button class="more1">read more</button>
+                    <h4 class="more"> Computer science</h4>
+                    <div class="mod">
+                        <button id="Btn">Open Modal</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Welcome to Computer Science..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Machine_learning">
+                        <img src="/img/ml.jpg" alt="about machine learning">
+                    </a>
+                    <button class="more1">read more</button>
+                    <h4 class="more">Machine Learning</h4>
+                    <div class="mod">
+                        <button id="Btn">Open Modal</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Welcome to Machine Learning..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://en.wikipedia.org/wiki/Artificial_intelligence">
+                        <img src="/img/ai.jpg" alt="about artificial intelligence">
+                    </a>
+                    <button class="more1">read more</button>
+                    <h4 class="more">Artificial Intelligence</h4>
+                    <div class="mod">
+                        <button id="Btn">Open Modal</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>Welcome to Artificial Intelligence..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="abc5">
+            <form>
+                <p>Contact us</p><br>
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="about">About</label>
+                <input type="text" id="about" name="queryabout" placeholder="Write about your query..">
+
+                <input type="submit" value="Submit" onclick="validation()">
+            </form>
+        </section>
+
+        <section id="review">
+            <h5>Reviews</h5>
+            <div class="review1">
+                <div class="mem">
+                    <img src="/img/review.webp" alt="image">
+                    <h4>Person 1</h4>
+                    <p>It is very nice.</p>
+                </div>
+
+                <div class="mem"><img src="/img/review.webp" alt="image">
+                    <h4>Person 2</h4>
+                    <p>It is very good.</p>
+                </div>
+
+                <div class="mem"><img src="/img/review.webp" alt="image">
+                    <h4>Person 3</h4>
+                    <p>It is very helpful.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="map2">
+            <p>About</p>
+            <div class="map">
+                <div class="map1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14688.550125840617!2d72.522448!3d23.018721949999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84d196e417db%3A0x60131a3741787591!2sJodhpur%20Village%2C%20Ahmedabad%2C%20Gujarat%20380015!5e0!3m2!1sen!2sin!4v1676014933275!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map6">
+                    <h2>Team members</h2>
+
+                    <div>
+
+                        <div class="map5">
+                            <div class="tab">
+                                <button class="tablinks" onclick="openCity(event, 'r1')">review1</button>
+                                <button class="tablinks" onclick="openCity(event, 'r2')">review2</button>
+                                <button class="tablinks" onclick="openCity(event, 'r3')">review3</button>
+                            </div>
+                            <div id="r1" class="team">
+                                <img src="/img/review.webp" alt="image">
+                                <h4>Chief executive officer</h4>
+                            </div>
+                            <div id="r2" class="team">
+                                <img src="/img/review.webp" alt="image">
+                                <h4>Projrct Manager</h4>
+                            </div>
+                            <div id="r3" class="team">
+                                <img src="/img/review.webp" alt="image">
+                                <h4>Human resources executive</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog1">
+            <p>Blog Post</p>
+            <input type="text" id="mySearch" onkeyup="service()" placeholder="Search for names..">
+            <ul id="myMenu">
+                <li><a href="/index1.html">ms dhoni</a></li>
+                <li><a href="/index1.html">sachin tendulkar</a></li>
+                <li><a href="/index1.html">kapil dev</a></li>
+                <li><a href="/index1.html">virat kohli</a></li>
+                <li><a href="/index1.html">gambhir</a></li>
+                <li><a href="/index1.html">chahal</a></li>
+
+            </ul>
+
+            <div class="blog">
+                <div>
+                    <a href="index1.html"><img src="/img/msd.jpg" alt="about msdhoni"></a>
+                </div>
+                <div>
+                    <a href="index1.html"><img src="/img/st.jpg" alt="about Sachin Tendulkar"></a>
+                </div>
+                <div>
+                    <a href="index1.html"><img src="/img/kp.jpg" alt="about Kapil Dev"></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="slider">
+            <p>Slider show</p>
+            <div class="slider1">
+                <div class="slider2"><img src="/img/sl1.webp" alt="slide1"></div>
+                <div class="slider2"><img src="/img/sl2.png" alt="slide2"></div>
+                <div class="slider2"><img src="/img/sl3.jpg" alt="slide3"></div>
+                <div class="slider2"><img src="/img/sl4.jpg" alt="slide4"></div>
+                <div class="slider2"><img src="/img/sl5.jpg" alt="slide5"></div>
+            </div>
+        </section>
+
+        <section id="light">
+            <p>Light Box</p>
+            <div class="box">
+                <a href="javascript:(0)" class="box1">
+                    <img src="/img/box1.jpg" alt="slide1">
+                    <button>X</button>
+                </a>
+                <a href="javascript:(0)" class="box1"><img src="/img/box2.jpg" alt="slide2"><button>X</button>
+
+                </a>
+                <a href="javascript:(0)" class="box1"><img src="/img/box3.webp" alt="slide3"><button>X</button></a>
+                <a href="javascript:(0)" class="box1"><img src="/img/box4.jpg" alt="slide4"><button>X</button></a>
+                <a href="javascript:(0)" class="box1"><img src="/img/box5.jpg" alt="slide5"><button>X</button></a>
+                <a href="javascript:(0)" class="box1"><img src="/img/box6.jpg" alt="slide5"><button>X</button></a>
+                <a href="javascript:(0)" class="box1"><img src="/img/box7.jpg" alt="slide5"><button>X</button></a>
+                <a href="javascript:(0)" class="box1"><img src="/img/box8.jpg" alt="slide5"><button>X</button></a>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="/img/box4.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/img/box5.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/img/box7.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                </div>
+                <div class="column">
+                    <img src="/img/box8.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                </div>
+            </div>
+
+            <div id="myModal1" class="modal1">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content1">
+
+                    <div class="mySlides">
+                        <img src="/img/box4.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="/img/box5.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="/img/box7.jpg">
+                    </div>
+
+                    <div class="mySlides">
+                        <img src="/img/box8.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- <div class="caption-container">
+                        <p id="caption"></p>
+                    </div> -->
+
+
+                    <div class="column">
+                        <img class="demo cursor" src="/img/box4.jpg" style="width: 100%;" onclick="currentSlide(1)" alt="Nature and sunrise">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/img/box5.jpg" style="width: 100%;" onclick="currentSlide(2)" alt="Snow">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/img/box7.jpg" style="width: 100%;" onclick="currentSlide(3)"
+                            alt="Mountains and fjords">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="/img/box8.jpg" style="width: 100%;" onclick="currentSlide(4)" alt="Northern Lights">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq2">
+            <p>FAQs</p>
+            <div>
+                <div class="fag1">
+                    <button class="que1">Question-1: what is profile?</button>
+                    <p class="que2">It is a identifier!</p>
+                </div>
+                <div class="fag1">
+                    <button class="que1">Question-2: what is box?</button>
+                    <p class="que2">It is a identifier!</p>
+                </div>
+                <div class="fag1">
+                    <button class="que1">Question-3: what is faq?</button>
+                    <p class="que2">It is a identifier!</p>
+                </div>
+            </div>
+        </section>
+        <button onclick="topFunction()" id="myBtn">Top</button>
+
+    </main>
+
+    <footer id="demo">
+        <p>HTML---CSS---JAVASCRIPT</p>
+        <li><a href="#home#">Github</a></li>
+        <li><a href="#news">Facebook</a></li>
+        <li><a href="#contact">Linkedin</a></li>
+        <li><a href="#aboutl">Instagram</a></li><br>
+        <B>@copyright</B>
+    </footer>
+
+
+    <!-- <script src="/js/index.js"></script> -->
+
+</body>
+
+
+</html>
